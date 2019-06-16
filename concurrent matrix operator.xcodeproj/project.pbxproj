@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		DAFFCE0C22B4981200FBCBDA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAFFCE0B22B4981200FBCBDA /* main.cpp */; };
+		DAFFCE1D22B52D5600FBCBDA /* matrix_sum.cl in Sources */ = {isa = PBXBuildFile; fileRef = DAFFCE1C22B52D5600FBCBDA /* matrix_sum.cl */; };
+		DAFFCE2022B55FA500FBCBDA /* matrix_substraction.cl in Sources */ = {isa = PBXBuildFile; fileRef = DAFFCE1F22B55FA500FBCBDA /* matrix_substraction.cl */; };
+		DAFFCE2322B586A100FBCBDA /* matrix_scalar_multiplication.cl in Sources */ = {isa = PBXBuildFile; fileRef = DAFFCE2122B586A100FBCBDA /* matrix_scalar_multiplication.cl */; };
+		DAFFCE2422B586A100FBCBDA /* matrix_dot_product.cl in Sources */ = {isa = PBXBuildFile; fileRef = DAFFCE2222B586A100FBCBDA /* matrix_dot_product.cl */; };
+		DAFFCE2722B5920100FBCBDA /* matrix_multiplication.cl in Sources */ = {isa = PBXBuildFile; fileRef = DAFFCE2622B5920100FBCBDA /* matrix_multiplication.cl */; };
+		DAFFCE2A22B5C00400FBCBDA /* matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAFFCE2822B5C00400FBCBDA /* matrix.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,13 @@
 /* Begin PBXFileReference section */
 		DAFFCE0822B4981200FBCBDA /* concurrent matrix operator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "concurrent matrix operator"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAFFCE0B22B4981200FBCBDA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DAFFCE1C22B52D5600FBCBDA /* matrix_sum.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.opencl; path = matrix_sum.cl; sourceTree = "<group>"; };
+		DAFFCE1F22B55FA500FBCBDA /* matrix_substraction.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.opencl; path = matrix_substraction.cl; sourceTree = "<group>"; };
+		DAFFCE2122B586A100FBCBDA /* matrix_scalar_multiplication.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.opencl; path = matrix_scalar_multiplication.cl; sourceTree = "<group>"; };
+		DAFFCE2222B586A100FBCBDA /* matrix_dot_product.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.opencl; path = matrix_dot_product.cl; sourceTree = "<group>"; };
+		DAFFCE2622B5920100FBCBDA /* matrix_multiplication.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.opencl; path = matrix_multiplication.cl; sourceTree = "<group>"; };
+		DAFFCE2822B5C00400FBCBDA /* matrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = matrix.cpp; sourceTree = "<group>"; };
+		DAFFCE2922B5C00400FBCBDA /* matrix.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = matrix.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +70,14 @@
 		DAFFCE0A22B4981200FBCBDA /* concurrent matrix operator */ = {
 			isa = PBXGroup;
 			children = (
+				DAFFCE2622B5920100FBCBDA /* matrix_multiplication.cl */,
+				DAFFCE2222B586A100FBCBDA /* matrix_dot_product.cl */,
+				DAFFCE2122B586A100FBCBDA /* matrix_scalar_multiplication.cl */,
+				DAFFCE1F22B55FA500FBCBDA /* matrix_substraction.cl */,
+				DAFFCE1C22B52D5600FBCBDA /* matrix_sum.cl */,
 				DAFFCE0B22B4981200FBCBDA /* main.cpp */,
+				DAFFCE2822B5C00400FBCBDA /* matrix.cpp */,
+				DAFFCE2922B5C00400FBCBDA /* matrix.hpp */,
 			);
 			path = "concurrent matrix operator";
 			sourceTree = "<group>";
@@ -118,7 +138,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAFFCE2322B586A100FBCBDA /* matrix_scalar_multiplication.cl in Sources */,
 				DAFFCE0C22B4981200FBCBDA /* main.cpp in Sources */,
+				DAFFCE2722B5920100FBCBDA /* matrix_multiplication.cl in Sources */,
+				DAFFCE2A22B5C00400FBCBDA /* matrix.cpp in Sources */,
+				DAFFCE1D22B52D5600FBCBDA /* matrix_sum.cl in Sources */,
+				DAFFCE2422B586A100FBCBDA /* matrix_dot_product.cl in Sources */,
+				DAFFCE2022B55FA500FBCBDA /* matrix_substraction.cl in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
